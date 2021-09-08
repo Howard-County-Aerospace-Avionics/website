@@ -1,0 +1,94 @@
+{
+    "name": "Howard County Aerospace",
+    "short_name": "hocoaero",
+    "categories": [],
+    "scope": "/",
+    "icons": [
+      {
+          "src": "/images/maskable_icon_x48.png",
+          "sizes": "48x48",
+          "type": "image/png",
+          "purpose": "any maskable"
+      },
+      {
+          "src": "/images/maskable_icon_x72.png",
+          "sizes": "72x72",
+          "type": "image/png",
+          "purpose": "any maskable"
+      },
+      {
+          "src": "/images/maskable_icon_x96.png",
+          "sizes": "96x96",
+          "type": "image/png",
+          "purpose": "any maskable"
+      },
+      {
+          "src": "/images/maskable_icon_x128.png",
+          "sizes": "128x128",
+          "type": "image/png",
+          "purpose": "any maskable"
+      },
+      {
+          "src": "/images/maskable_icon_x192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any maskable"
+      },
+      {
+          "src": "/images/maskable_icon_x384.png",
+          "sizes": "384x384",
+          "type": "image/png",
+          "purpose": "any maskable"
+      },
+      {
+          "src": "/images/maskable_icon_x512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+      },
+  
+      {
+        "src": "/images/-257.png",
+        "sizes": "257x257",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/-385.png",
+        "sizes": "385x385",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/images/tasks_promo.png",
+        "sizes": "1125×2436",
+        "type": "image/webp"
+      },
+      {
+        "src": "/images/alerts_promo.png",
+        "sizes": "1125×2436",
+        "type": "image/webp"
+      },
+      {
+        "src": "/images/dashboard_promo.png",
+        "sizes": "1125×2436",
+        "type": "image/webp"
+      },
+      {
+        "src": "/images/new__promo.png",
+        "sizes": "1125×2436",
+        "type": "image/webp"
+      }
+    ],
+    "theme_color": "#EE274B",
+    "background_color": "#fff",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
+  
