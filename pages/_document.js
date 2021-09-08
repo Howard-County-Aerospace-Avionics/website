@@ -1,8 +1,8 @@
 import Document from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
-const APP_NAME = 'Maximilian Hollis'
-const APP_DESCRIPTION = 'My Personal website'
+const APP_NAME = 'Hoco Aerospace'
+const APP_DESCRIPTION = 'Hoco Aero stuff'
 const Theme_Color = '#EE274B'
 
 export default class MyDocument extends Document {
