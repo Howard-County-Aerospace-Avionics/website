@@ -10,7 +10,6 @@ const HeroWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: ${Theme.colors.white};
   position: relative;
 `
 
@@ -45,7 +44,6 @@ const HeroTopBackground = styled.div`
   left: 0;
   right: 0;
   height: 60%;
-  background-color: ${Theme.colors.background};
 `
 
 const HeroBottomBackground = styled.div`
@@ -63,12 +61,12 @@ const HeroBottomBackground = styled.div`
     offSet == '60%' && `0px 0px 20px 0px rgba(0, 0, 0, 0.5);`}; */
 `
 
-const Hero = () => {
+const Hero = ({id}) => {
   return (
-    <HeroWrapper>
+    <HeroWrapper id={id}>
       <HeroTopBackground />
-      <HeroLogo />
-      <HeroHeading>Howard County Aerospace</HeroHeading>
+      {/* <HeroLogo /> */}
+     {/*  <HeroHeading>Howard County Aerospace</HeroHeading> */}
       <HeroBottomBackground offSet={'30%'} color={Theme.colors.primary.main} />
       <HeroBottomBackground offSet={'60%'} color={Theme.colors.primary.dark} />
     </HeroWrapper>

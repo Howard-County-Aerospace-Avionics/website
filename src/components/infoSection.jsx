@@ -35,9 +35,9 @@ const InfoSectionWrapper = styled.div`
     }
 `
 
-const InfoSection = ({heading, body, buttonText, buttonSrc}) => {
+const InfoSection = ({heading, body, buttonText, buttonSrc, id}) => {
     return (
-        <InfoSectionWrapper>
+        <InfoSectionWrapper id={id}>
             <H2>{heading}</H2>
             <P>{body}</P>
             <Button href={buttonSrc}>{buttonText}</Button>

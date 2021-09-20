@@ -1,8 +1,11 @@
+import { Theme } from '../styles'
+import { FaInstagram, FaDiscord, FaEnvelope } from 'react-icons/fa'
+
 export const data = {
   membership: {
     heading: 'Membership',
     body:
-      'Joining a team in the Student Competition Center is one of the best opportunities available at Georgia Tech to aid both your professional development and career endeavors. Numerous companies enthusiastically sponsor GTMS by providing the funds necessary to team operations. In return, sponsors gain priority access to recruit our members. Involved students are highly sought after for their extensive interdisciplinary experience. Companies that actively recruit for engineering and business positions include General Motors, Ford, Fiat Chrysler, Caterpillar, Michelin, SpaceX, Tesla, Lockheed Martin, and NASA.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     buttonText: 'Get started',
     buttonSrc: '/membership'
   },
@@ -10,7 +13,7 @@ export const data = {
     // PLACEHOLDER
     heading: 'Social',
     body:
-      'Joining a team in the Student Competition Center is one of the best opportunities available at Georgia Tech to aid both your professional development and career endeavors. Numerous companies enthusiastically sponsor GTMS by providing the funds necessary to team operations. In return, sponsors gain priority access to recruit our members. Involved students are highly sought after for their extensive interdisciplinary experience. Companies that actively recruit for engineering and business positions include General Motors, Ford, Fiat Chrysler, Caterpillar, Michelin, SpaceX, Tesla, Lockheed Martin, and NASA.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     buttonText: 'Get started',
     buttonSrc: '/social'
   },
@@ -18,7 +21,7 @@ export const data = {
     // PLACEHOLDER
     heading: 'Team',
     body:
-      'Joining a team in the Student Competition Center is one of the best opportunities available at Georgia Tech to aid both your professional development and career endeavors. Numerous companies enthusiastically sponsor GTMS by providing the funds necessary to team operations. In return, sponsors gain priority access to recruit our members. Involved students are highly sought after for their extensive interdisciplinary experience. Companies that actively recruit for engineering and business positions include General Motors, Ford, Fiat Chrysler, Caterpillar, Michelin, SpaceX, Tesla, Lockheed Martin, and NASA.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     buttonText: 'Get started',
     buttonSrc: '/team'
   },
@@ -26,7 +29,7 @@ export const data = {
     // PLACEHOLDER
     heading: 'Sub-Teams',
     body:
-      'Joining a team in the Student Competition Center is one of the best opportunities available at Georgia Tech to aid both your professional development and career endeavors. Numerous companies enthusiastically sponsor GTMS by providing the funds necessary to team operations. In return, sponsors gain priority access to recruit our members. Involved students are highly sought after for their extensive interdisciplinary experience. Companies that actively recruit for engineering and business positions include General Motors, Ford, Fiat Chrysler, Caterpillar, Michelin, SpaceX, Tesla, Lockheed Martin, and NASA.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     buttonText: 'Get started',
     buttonSrc: '/subteam'
   },
@@ -34,7 +37,7 @@ export const data = {
     // PLACEHOLDER
     heading: 'Competition',
     body:
-      'Joining a team in the Student Competition Center is one of the best opportunities available at Georgia Tech to aid both your professional development and career endeavors. Numerous companies enthusiastically sponsor GTMS by providing the funds necessary to team operations. In return, sponsors gain priority access to recruit our members. Involved students are highly sought after for their extensive interdisciplinary experience. Companies that actively recruit for engineering and business positions include General Motors, Ford, Fiat Chrysler, Caterpillar, Michelin, SpaceX, Tesla, Lockheed Martin, and NASA.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     buttonText: 'Get started',
     buttonSrc: '/competition'
   },
@@ -42,7 +45,7 @@ export const data = {
     // PLACEHOLDER
     heading: 'Members',
     body:
-      'Joining a team in the Student Competition Center is one of the best opportunities available at Georgia Tech to aid both your professional development and career endeavors. Numerous companies enthusiastically sponsor GTMS by providing the funds necessary to team operations. In return, sponsors gain priority access to recruit our members. Involved students are highly sought after for their extensive interdisciplinary experience. Companies that actively recruit for engineering and business positions include General Motors, Ford, Fiat Chrysler, Caterpillar, Michelin, SpaceX, Tesla, Lockheed Martin, and NASA.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     buttonText: 'Get started',
     buttonSrc: '/members'
   },
@@ -50,7 +53,7 @@ export const data = {
     // PLACEHOLDER
     heading: 'Background',
     body:
-      'Joining a team in the Student Competition Center is one of the best opportunities available at Georgia Tech to aid both your professional development and career endeavors. Numerous companies enthusiastically sponsor GTMS by providing the funds necessary to team operations. In return, sponsors gain priority access to recruit our members. Involved students are highly sought after for their extensive interdisciplinary experience. Companies that actively recruit for engineering and business positions include General Motors, Ford, Fiat Chrysler, Caterpillar, Michelin, SpaceX, Tesla, Lockheed Martin, and NASA.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     buttonText: 'Get started',
     buttonSrc: '/background'
   },
@@ -58,8 +61,31 @@ export const data = {
     // PLACEHOLDER
     heading: 'Sponsors',
     body:
-      'Joining a team in the Student Competition Center is one of the best opportunities available at Georgia Tech to aid both your professional development and career endeavors. Numerous companies enthusiastically sponsor GTMS by providing the funds necessary to team operations. In return, sponsors gain priority access to recruit our members. Involved students are highly sought after for their extensive interdisciplinary experience. Companies that actively recruit for engineering and business positions include General Motors, Ford, Fiat Chrysler, Caterpillar, Michelin, SpaceX, Tesla, Lockheed Martin, and NASA.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     buttonText: 'Get started',
     buttonSrc: '/sponsor'
-  }
+  },
+  socials: [
+    {
+      alt: 'instagram',
+      backgroundColor: Theme.colors.primary.dark,
+      color: 'white',
+      icon: <FaInstagram />,
+      link: 'https://instagram.com'
+    },
+    {
+      alt: 'discord',
+      backgroundColor: Theme.colors.primary.main,
+      color: 'white',
+      icon: <FaDiscord />,
+      link: 'https://discord.gg/tSaCHVc5Bt'
+    },
+    {
+      alt: 'email',
+      backgroundColor: Theme.colors.primary.light,
+      color: 'white',
+      icon: <FaEnvelope />,
+      link: 'mailto:hocoaero@gmail.com'
+    }
+  ]
 }

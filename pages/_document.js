@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
           <meta name='format-detection' content='telephone=no' />
           <meta name='mobile-web-app-capable' content='no' />
           <meta name='theme-color' content={Theme_Color} />
-          <link rel='icon' href='/images/fetchDark.svg' type='image/svg' />
+          <link rel='icon' href='/images/hocoaerologowhite.svg' type='image/svg' />
           <link defer rel='preconnect' href='https://fonts.gstatic.com' />
           <link
             defer
@@ -85,7 +85,7 @@ export default class MyDocument extends Document {
           <meta name='twitter:creator' content='' />
           <meta name='twitter:title' content='Hoco Aerospace' />
           <meta name='twitter:description' content={APP_DESCRIPTION} />
-          <link rel='manifest' href='manifest.json' />
+          {/* <link rel='manifest' href='manifest.json' /> */}
           <link rel='mask-icon' href='' color={Theme_Color} />
           <meta name='apple-mobile-web-app-capable' content='yes' />
           <meta

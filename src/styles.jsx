@@ -1,17 +1,19 @@
 import styled, { createGlobalStyle } from 'styled-components'
-import Link from 'next/link'
+import NextLink from 'next/link'
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
+html {
+    scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Mina', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
-  body {
-    background: #fff
-  } 
    
+    
+
   ::-webkit-scrollbar {
     width: 8px;
   }
@@ -26,25 +28,19 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background: #3DA1FF; /* WebKit/Blink Browsers */
+    background: orange; /* WebKit/Blink Browsers */
     color: #fff;
   }
   ::-moz-selection {
-    background: #3DA1FF; /* Gecko Browsers */
+    background: orange; /* Gecko Browsers */
     color: #fff;
   }
 
-body
-    {
-    overscroll-behavior-y: contain;
+body {
+      background: #fff;
+      overscroll-behavior-y: contain;
     }
  } 
-`
-
-export const Container = styled.div`
-  z-index: 1;
-  width: 100%;
-  height: 100vh;
 `
 
 export const Button = styled.button`
@@ -126,6 +122,18 @@ export const H4 = styled.h4`
   line-height: 39px;
 `
 
+export const H5 = styled.h5`
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #6f8faf;
+`
+
 export const Subtitle1 = styled.p`
   font-family: Poppins;
   font-style: normal;
@@ -144,6 +152,20 @@ export const P = styled.p`
   font-size: 18px;
   line-height: 27px;
 `
+
+export const Link = styled.a`
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration-line: underline;
+
+  color: #6F8FAF;
+
+`
+
 
 export const Input = styled.input`
   height: 50px;
@@ -166,9 +188,9 @@ export const Input = styled.input`
 `
 
 export const StyledLink = ({ as, children, className, href }) => (
-  <Link href={href} as={as} passHref>
+  <NextLink href={href} as={as} passHref>
     <a className={className}>{children}</a>
-  </Link>
+  </NextLink>
 )
 
 export const LinkWrapper = styled(StyledLink)`

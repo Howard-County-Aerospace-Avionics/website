@@ -1,8 +1,14 @@
+import React, { useRef } from 'react'
 import styled from 'styled-components'
 import InfoSection from '../src/components/infoSection'
-import { AnimatedSectionDivider, BottomSectionDivider}  from '../src/components/sectionDivider'
+import {
+  AnimatedSectionDivider,
+  BottomSectionDivider
+} from '../src/components/sectionDivider'
 import Data, { data } from '../src/data/index'
 import Hero from '../src/components/hero'
+import MediaSection from '../src/components/media'
+import Navbar from '../src/components/navbar'
 
 const PageWrapper = styled.div`
   width: 100%;
@@ -10,14 +16,16 @@ const PageWrapper = styled.div`
 `
 
 export default function Home () {
+  const ref = useRef()
+
   return (
-    <PageWrapper>
-      <Hero />
-      <InfoSection
-        {...data.membership}
-      />
+    <PageWrapper ref={ref} id={'home'}>
+      <Navbar/>
+      <Hero/>
+      <InfoSection {...data.membership} id={'team'}/>
       {/* <SectionDivider /> */}
-      <InfoSection
+      <MediaSection id={'competition'}/>
+      {/* <InfoSection
         {...data.social}
       />
       <InfoSection
@@ -37,7 +45,7 @@ export default function Home () {
       />
       <InfoSection
         {...data.competition}
-      />
+      /> */}
     </PageWrapper>
   )
 }
